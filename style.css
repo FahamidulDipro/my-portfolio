@@ -49,28 +49,21 @@ img {
 }
 
 .btn_hire {
-    padding: .5rem;
+    margin-top: 20px;
+    padding: 10px 40px;
     font-size: 1rem;
+    font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     background-color: #2c3436;
     color: whitesmoke;
-    outline: none;
     border: 1px solid #f2c410;
     border-radius: 5px;
     transition: .3s linear;
+    text-decoration: none;
 }
 
 .btn_hire:hover {
     background-color: #f2c410;
-}
-
-.btn_hire a {
-    text-decoration: none;
-    color: whitesmoke;
-    transition: .3s linear;
-}
-
-.btn_hire a:hover {
     color: #2c3436;
 }
