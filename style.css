@@ -31,6 +31,7 @@ p {
     padding: 10px;
     /* border: 2px solid skyblue; */
     flex: 4;
+    padding-left: 2%;
 }
 
 .image_container {
@@ -44,7 +45,7 @@ img {
     width: 50%;
     height: 500px;
     object-fit: cover;
-    float: right;
+    padding-left: 5%;
 }
 
 .btn_hire {
