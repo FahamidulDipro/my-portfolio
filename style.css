@@ -63,5 +63,14 @@ img {
 
 .btn_hire:hover {
     background-color: #f2c410;
+}
+
+.btn_hire a {
+    text-decoration: none;
+    color: whitesmoke;
+    transition: .3s linear;
+}
+
+.btn_hire a:hover {
     color: #2c3436;
 }
