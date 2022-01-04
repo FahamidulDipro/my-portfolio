@@ -86,10 +86,11 @@ img {
     box-shadow: 5px 5px 25px 5px #f2c410;
     border-radius: 10px;
     cursor: pointer;
+    transition: .3s ease;
 }
 
 .card:hover {
-    background-color: #454849;
+    background-color: #4d5a5e;
 }
 
 .experience_area {
