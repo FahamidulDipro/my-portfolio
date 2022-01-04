@@ -24,6 +24,8 @@ p {
     /* border: 2px solid white; */
     padding: 1rem 0;
     display: flex;
+    margin-top: 100px;
+    height: 80vh;
 }
 
 .text_container {
@@ -37,7 +39,7 @@ p {
 .image_container {
     width: 50%;
     /* border: 2px solid skyblue; */
-    padding: 10px;
+    padding: 10px 10px 10px 30px;
     flex: 2;
 }
 
@@ -45,7 +47,15 @@ img {
     width: 50%;
     height: 500px;
     object-fit: cover;
-    padding-left: 5%;
+}
+
+.second_image {
+    height: 300px;
+    width: 300px;
+    border: 3px solid #f2c410;
+    padding: none;
+    border-radius: 50%;
+    margin-left: 100px;
 }
 
 .btn_hire {
