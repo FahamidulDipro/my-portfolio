@@ -114,6 +114,10 @@ footer {
     background-color: #2C2D35;
     padding: 30px 0;
     margin: -15px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 footer p {
@@ -149,4 +153,100 @@ footer p {
     background-size: 100% 100%;
     background-attachment: fixed;
     background-repeat: no-repeat;
+}
+
+@media only screen and (max-width: 600px) {
+    .first_section {
+        padding: 10px 0;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+    .second_section {
+        padding: 10px 0;
+        flex-direction: column;
+        height: 100vh;
+    }
+    .text_container {
+        width: 90%;
+        padding: 10px;
+        /* border: 2px solid skyblue; */
+    }
+    .image_container {
+        width: 89%;
+        padding: 0;
+        margin-top: 12px;
+    }
+    img {
+        width: 95%;
+        height: 382px;
+        object-fit: cover;
+        margin-bottom: -86px;
+        margin-left: -33px;
+    }
+    .second_image {
+        height: 82%;
+        width: 67%;
+        border: 3px solid #f2c410;
+        padding: none;
+        border-radius: 50%;
+        margin-left: 3px;
+        object-fit: cover;
+        margin-top: 48px;
+    }
+    h1 {
+        font-size: 2rem;
+        color: white;
+    }
+    .experience_area {
+        display: block;
+    }
+    .card {
+        width: 67%;
+        height: auto;
+        padding: 22px;
+        background-color: #394346;
+        box-shadow: 5px 5px 25px 5px #f2c410;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: .3s ease;
+        margin-top: 94px;
+        margin-left: 8px;
+        margin-bottom: 180px;
+    }
+    footer {
+        background-color: #2C2D35;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        margin-bottom: 0px;
+    }
+    .card h1 {
+        text-align: center;
+        font-size: 21px;
+    }
+    .card h3 {
+        text-align: center;
+        color: #f2c410;
+        font-size: 14px;
+    }
+    p {
+        color: whitesmoke;
+        font-size: 13px;
+    }
+    .centered_heading {
+        margin: -78px;
+        padding-top: 0px;
+        background-image: linear-gradient(rgba(44, 52, 54, 0.829), rgba(44, 52, 54, 0.897)), url("images/code.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        text-align: left;
+        margin-left: 11px;
+        margin-bottom: -94px;
+    }
+    .card2 {
+        margin-bottom: 252px;
+        margin-top: -102px;
+    }
 }
