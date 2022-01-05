@@ -180,7 +180,7 @@ footer p {
         width: 95%;
         height: 382px;
         object-fit: cover;
-        margin-bottom: -86px;
+        margin-bottom: -129px;
         margin-left: -33px;
     }
     .second_image {
@@ -236,14 +236,14 @@ footer p {
     }
     .centered_heading {
         margin: -78px;
-        padding-top: 0px;
+        padding-top: 75px;
         background-image: linear-gradient(rgba(44, 52, 54, 0.829), rgba(44, 52, 54, 0.897)), url("images/code.jpg");
         background-size: 100% 100%;
         background-attachment: fixed;
         background-repeat: no-repeat;
         text-align: left;
         margin-left: 11px;
-        margin-bottom: -94px;
+        margin-bottom: -125px;
     }
     .card2 {
         margin-bottom: 252px;
